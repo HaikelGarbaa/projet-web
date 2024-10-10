@@ -1,0 +1,72 @@
+
+/mon-projet/
+    index.html
+    navigation.html
+    section1.html
+    section2.html
+    section3.html
+    section4.html
+    section5.html
+    section6.html
+    styles.css
+    cv.pdf
+    lettre_motivation.pdf
+
+/* Créé par : [Votre Haikel et Garbaa] */
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    margin-top: 20px;
+}
+
+nav {
+    background-color: #e0e0e0;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin-bottom: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    color: #0073e6;
+}
+
+/* Styles des tableaux */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #000;
+    text-align: left;
+}
